@@ -89,7 +89,7 @@ void main()
         p = FindCmd( head, cmd);   
         if(p == NULL)
         {
-            printf("this is wrong cmd!\n");
+            printf("this is a wrong cmd!\n");
             continue;
         }
         printf("%s - %s\n", p->cmd, p->desc);      
