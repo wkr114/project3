@@ -3,6 +3,7 @@
 /*                                                                                                */
 /*  FILE NAME             :  menu.c                                                               */
 /*  PRINCIPAL AUTHOR      :  wangkairui                                                           */
+/*  STUDENT NUMBER        :  SA14226241                                                           */
 /*  SUBSYSTEM NAME        :  menu                                                                 */
 /*  MODULE NAME           :  menu                                                                 */
 /*  LANGUAGE              :  C                                                                    */
