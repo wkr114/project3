@@ -3,6 +3,7 @@
 /*                                                                                                */
 /*  FILE NAME             :  menu.c                                                               */
 /*  PRINCIPAL AUTHOR      :  wangkairui                                                           */
+/*  STUDENT NUMBER        :  SA14226241                                                           */
 /*  SUBSYSTEM NAME        :  menu                                                                 */
 /*  MODULE NAME           :  menu                                                                 */
 /*  LANGUAGE              :  C                                                                    */
@@ -39,6 +40,10 @@ typedef struct DataNode
 
 tDataNode *FindCmd(tDataNode *head, char *cmd)
 {
+    if( head == NULL|| cmd == NULL)
+    {
+        return NULL;
+    }
     tDataNode *p = head;
     while(p != NULL)
     {
